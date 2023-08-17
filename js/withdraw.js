@@ -9,7 +9,7 @@ document.getElementById('btn-withdraw').addEventListener('click',function(){
      withdrawField.value ='';
 
     if(isNaN(newWithdrawAmmount)){
-        alert('Please Proide a valid Number');
+        alert('Please Provide a valid Number');
         return;
     }
 
